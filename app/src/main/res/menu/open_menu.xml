@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/loginI"
+        android:orderInCategory="1"
+        android:title="@string/selectAll"
+        android:icon="@drawable/ic_login_button"
+        android:checkable="true"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/logoutI"
+        android:orderInCategory="1"
+        android:title="@string/selectAll"
+        android:icon="@drawable/ic_logout"
+        android:checkable="true"
+        android:visible="false"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/open"
+        android:orderInCategory="1"
+        android:title="@string/selectAll"
+        android:icon="@drawable/ic_open"
+        android:checkable="true"
+        app:showAsAction="always" />
+
+</menu>

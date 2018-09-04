@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Twoja lista zakupów</string>
+    <string name="new_list">Utwórz nową listę</string>
+    <string name="description"> Witam w aplikacji Lista zakupów.\n
+        Ta aplikacja została stworzona z myślą o ułatwieniu codziennego życia. \n
+        W dzisiejszym świecie mamy bardzo mało czasu na przyjemności, a zakupy do nich nie należą \n
+        Postanowiłem to ułatwić. Teraz możesz tworzyć, udostępniać i wypełniać listę.\n
+        Zapraszam</string>
+    <string name="buttonNameW">wejdź</string>
+    <string name="add_list">Nazwa listy</string>
+    <string name="add">dodaj</string>
+    <string name="name">nazwa</string>
+    <string name="noItem">Nie masz żadnych list</string>
+    <string name="noProduct">Nie masz żadnych produktów</string>
+    <string name="price">cena</string>
+    <string name="quantity">ilość</string>
+    <string name="selectAll">Zaznacz wszystko</string>
+    <string name="delete">Usuń</string>
+    <string name="money">zł</string>
+    <string name="edit">Zapisz</string>
+    <string name="oneMore">Naciśnij jeszcze raz by zamknąć</string>
+    <string name="sendTo">Wyślij do</string>
+    <string name="open">Otwórz</string>
+    <string name="emptyListName">Nazwa listy nie może być pusta.</string>
+    <string name="sendingOption">W jaki sposób chcesz wysłać listę?</string>
+    <string name="asFile">Jako plik</string>
+    <string name="asText">Jako tekst</string>
+    <string name="unitButelka">Butelkę</string>
+    <string name="registerForm">Rejestracja</string>
+    <string name="Login">Logowanie</string>
+    <string name="email">e-mail</string>
+    <string name="password">hasło</string>
+    <string name="repassword">powtórz hasło</string>
+    <string name="register">zarejestruj</string>
+    <string name="forgetPassword">Zapomniałeś hasła?</string>
+    <string name="alreadyRegistered">Masz już konto? Zaloguj się</string>
+    <string name="noAccount">Nie masz jeszcze konta? Stwórz je</string>
+    <string name="emailVerification">Weryfikacja adresu email</string>
+    <string name="resendEmail">Wyślij ponownie</string>
+    <string name="signOut">Wyloguj</string>
+    <string-array name="Unit">
+        <item>g</item>
+        <item>dag</item>
+        <item>kg</item>
+        <item>litr</item>
+        <item>szt</item>
+    </string-array>
+    <string name="confirmed">Właśnie potwierdziłeś adres email?</string>
+    <string name="Verified">Zweryfikowano</string>
+    <string name="noVerified">Niezweryfikowano</string>
+    <string name="successfullyVerified">Zweryfikowano, jesteś zalogowany</string>
+    <string name="resetPassword">Zresetuj hasło</string>
+    <string name="resetForm">Wprowadź email by zresetować hasło</string>
+    <string name="noNet">Nie masz połączenia z Internetem</string>
+    <string name="noUser">Brak użytkowanika o podanym adresie email</string>
+    <string name="emailReset">Email został wysłany</string>
+    <string name="Retry">Spróbuj ponownie</string>
+    <string name="fatalError">Coś poszło nie tak, proszę się skontaktować z programistą.</string>
+    <string name="wrongEmail">Nie poprawny adres email</string>
+    <string name="send">Wyślij</string>
+    <string name="Success">Zalogowano</string>
+    <string name="errorWithLogin">Coś poszło nie tak proszę spróbować ponownie</string>
+    <string name="firstLogin">Musisz być zalogowany.</string>
+    <string name="Reset">Zresetuj</string>
+    <string name="uploaded">Wysłano</string>
+    <string name="emptyEmail">Adres email nie może być pusty</string>
+    <string name="InvalidPassword">Błędny email lub hasło</string>
+    <string name="emptyEmailPassword">Email lub hasło jest puste</string>
+    <string name="invalidPassword">Podane hasło jest nieprawidłowe. Hasło powinno mieć co najmniej 6 znaków</string>
+    <string name="notSamePassword">Podane hasła nie są takie same</string>
+    <string name="wrongEmailFormation">Email jest nieprawidłowy</string>
+    <string name="EmailSend">Email został wysłany</string>
+    <string name="needLogin">Musisz być zalogowany</string>
+    <string name="noList">Nie ma listy dla Ciebie</string>
+    <string name="Logging">Logowanie</string>
+    <string name="Sending">Wysyłanie</string>
+    <string name="Registering">Rejestracja</string>
+    <string name="EmailChecking">Sprawdzenie adresu email</string>
+    <string name="download">Pobieranie</string>
+    <string name="comeBack">Witamy ponownie </string>
+    <string name="exists">Lista o podanej nazwie już istnieje</string>
+    <string name="errorWithGoogle">Coś poszło nie tak, proszę spróbować ponownie.</string>
+    <string name="Yes">Tak</string>
+    <string name="No">Nie</string>
+    <string name="askMerge">Lista o tej nazwie już istnieje czy chcesz je połączyć?</string>
+    <string name="alreadyBought">Ten produkt jest już kupiony</string>
+    <string name="nothingSelected">Nic nie jest zaznaczone</string>
+</resources>

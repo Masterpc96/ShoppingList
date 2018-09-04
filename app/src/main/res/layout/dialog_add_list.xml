@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25dp"
+    android:layout_weight="1"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/listNameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_list"
+        android:textAlignment="center"
+        android:textColor="@color/black" />
+
+    <EditText
+        android:id="@+id/listName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/bottom_line"
+        android:ems="10"
+        android:hint="@string/name"
+        android:maxLength="16"
+        android:inputType="textPersonName"
+        android:textColor="@color/black"
+        android:textColorHint="@color/gray" />
+
+    <Button
+        android:id="@+id/addListButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_rounded"
+        android:stateListAnimator="@null"
+        android:text="@string/add"
+        android:textColor="@color/white" />
+
+</LinearLayout>

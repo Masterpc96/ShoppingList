@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_margin="25dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/emailToSend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/sendTo"
+        android:drawableLeft="@drawable/ic_email_black"
+        android:background="@drawable/bottom_line"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/gray"
+        android:drawablePadding="10dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button_rounded"
+        android:text="@string/send"
+        android:textColor="@color/white" />
+</LinearLayout>
